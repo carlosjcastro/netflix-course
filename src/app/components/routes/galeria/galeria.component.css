@@ -1,0 +1,26 @@
+/* CASTRO GALANTE, CARLOS JOSÉ - DNI: 44.316.209 | DESAFÍO: SEMANA N°8 */
+
+/* ------GALERÍA------ */
+.container img{
+    height:100px;
+    width: 170px;
+}
+
+.principal{
+    text-align: center;
+}
+
+.carousel-inner{
+    border-bottom: rgb(46, 46, 46) solid 8px;
+}
+
+.carousel-inner img{
+    height:70rem;
+
+}
+
+.carousel-item {
+    color:white;
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+}

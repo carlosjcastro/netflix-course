@@ -1,0 +1,47 @@
+/* CASTRO GALANTE, CARLOS JOSÉ */
+
+
+/* -------NAV------- */
+nav{
+    height: 110px;
+    background-color: black;
+    /* border-bottom: rgb(255, 255, 255) solid 1px; */
+}
+
+.nav-link:hover{
+    color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    padding: 7px 13px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all .5s;
+}
+
+
+nav ul li a.active,nav ul li a:hover{
+    transition: .5s;
+    color: rgb(168, 0, 0);
+}
+
+.navbar-toggler{
+    background: none;
+    border: none;
+}
+
+.navbar-toggler-icon{
+  background-image: url(/assets/menu-to-net.png);
+  font-size: 25px;
+
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    background: none;
+}

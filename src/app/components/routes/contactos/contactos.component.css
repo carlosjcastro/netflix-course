@@ -1,0 +1,122 @@
+/* CASTRO GALANTE, CARLOS JOSÉ - DNI: 44.316.209 | DESAFÍO: SEMANA N°8 */
+
+/* ------HERO DE CONTACTO------ */
+.hero3{
+    height:70rem;
+    width: 100%;
+    border-bottom: rgb(46, 46, 46) solid 8px;
+    background-image:url('/assets/contacto_2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    position: relative;
+}
+
+.help{
+    padding:15px;
+    font-size: 90px;
+    color:rgb(0, 0, 0);
+    /* text-shadow: rgb(82, 3, 253) 0em 0.1em 0.4em; */
+    /* border: rgb(255, 255, 255) 6px solid; */
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* ------FORMULARIO------ */
+
+.contacto-titulo{
+    margin-bottom: 90px;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.for-you-c{
+    margin-top: 0px;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.formulario-cont{
+    height:60rem;
+    width: 100%;
+    border-bottom: rgb(46, 46, 46) solid 8px;
+    border-radius: 10px;
+}
+
+.form-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    height: 400px;
+}
+
+.text-aviso{
+    background-color: rgba(0, 0, 0, 0.700);
+    width: 100%;
+}
+
+.place-ico i{
+    font-size: 30px;
+    text-align: center;
+}
+
+.form-group i{
+    color: #ff5e5b;
+}
+
+.form-message{
+    color: #ff5e5b;
+}
+
+.form-message textarea{
+    resize: none;
+}
+
+.input-group-text{
+    background-color: #ff5e5b;
+    border: none;
+}
+
+.btn-enviar{
+    transition: all .5s;
+    background-color: #ff5e5b;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.btn-enviar:hover{
+    background-color: #ce4b49;
+
+}
+
+.formulario-cont h2{
+    font-size: 2rem;
+    color: rgb(255, 187, 0);;
+    text-align: center;
+    text-decoration: underline;
+    padding: 2rem;
+}
+
+@media screen and (max-width:900px){
+    .help{
+        padding:15px;
+        font-size: 60px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:600px){
+    .help{
+        padding:15px;
+        font-size: 40px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+}

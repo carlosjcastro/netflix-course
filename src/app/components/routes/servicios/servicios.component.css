@@ -1,0 +1,82 @@
+/* CASTRO GALANTE, CARLOS JOSÉ */
+
+/* ------HERO DE SERVICIOS------ */
+.hero2{
+    height:65rem;
+    width: 100%;
+    border-bottom: rgb(46, 46, 46) solid 8px;
+    background-image:url('/assets/net-juegos.jpg');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat; 
+    position: relative;
+}
+
+.services-title{
+    padding:15px;
+    font-size: 90px;
+    color:rgb(0, 0, 0);
+    /* text-shadow: rgb(82, 3, 253) 0em 0.1em 0.4em; */
+    /* border: rgb(255, 255, 255) 6px solid; */
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* ------CARDS------ */
+.servicios{
+    margin-top: 60px;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.for-you{
+    margin-top: 0px;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: #ff5e5b;
+}
+
+.cards{
+    border-bottom: rgb(46, 46, 46) solid 8px;
+}
+
+.card{
+    background-color: black;
+}
+
+.cards-body{
+    height: 180px;
+}
+
+.card-title{
+    color: #725ac1;
+}
+
+.imagen-card img{
+    height:220px;
+    width: 100%;
+    border: none;
+}
+
+.button-modal{
+    color: #000000;
+    transition: all .5s;
+    background-color: #ffffff;
+}
+
+.button-modal:hover{
+    color: #ffffff;
+    background-color: #725ac1;
+}
+
+@media screen and (max-width:900px){
+    .services-title{
+        padding:15px;
+        font-size: 60px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,18 @@
+
+/* CASTRO GALANTE, CARLOS JOSÉ */
+
+body::-webkit-scrollbar {
+    width: 7px;
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: #bb0300;
+    outline: 0.5px solid #bb0300;
+    border-radius: 15px;
+  }
+  
+
+body{
+    background: linear-gradient(#000000, #190752);
+}
+
