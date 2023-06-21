@@ -1,8 +1,8 @@
 Static web page based on Netlifx and the services it provides.
-✅ Contains "Home".
-✅ Contains a carousel of images.
-✅ Contains cards created with BootStrap.
-✅ Contains a contact form.
+- ✅ Contains "Home".
+- ✅ Contains a carousel of images.
+- ✅ Contains cards created with BootStrap.
+- ✅ Contains a contact form.
 
 Technologies used:
 - HTML 5
